@@ -1,28 +1,28 @@
 class Jcli < Formula
   desc "Jenkins CLI (rody-vx fork: job search via core API, folder/job path)"
   homepage "https://github.com/rody-vx/jenkins-cli"
-  version "0.0.48-rody.2"
+  version "0.0.48-rody.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.2/jcli-darwin-arm64.tar.gz"
-      sha256 "c56e124baf671ba148f0a0efb612f852225ac18cdfb64843daca54a45f116142"
+      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.3/jcli-darwin-arm64.tar.gz"
+      sha256 "a8e64406f12104fe9f7e18a7741bc28e8d5798d1e130e5c18ee2e6fb1dbd5f12"
     end
     on_intel do
-      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.2/jcli-darwin-amd64.tar.gz"
-      sha256 "6199ee1495e160c1cacccb8d5b142c7e9614fb6ff42a2044d5c6225d052194b2"
+      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.3/jcli-darwin-amd64.tar.gz"
+      sha256 "1bcef043dc56aa9fad5013dc90991ba73c987e8b615b01172267dc694eb0ce20"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.2/jcli-linux-arm64.tar.gz"
-      sha256 "7bf03efa6ec2b5abb47365e11ef45203ad9bcbfeefe92b38a0369bbbc2000b07"
+      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.3/jcli-linux-arm64.tar.gz"
+      sha256 "c9055cd6b0499150bbdf7525b98708751cabd6553e0eeecdc09b4b08d5d5122e"
     end
     on_intel do
-      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.2/jcli-linux-amd64.tar.gz"
-      sha256 "8e5e452a8cedb21aa6f14df0f31f524bb192e1d0bdd6516045ab8943b87914bd"
+      url "https://github.com/rody-vx/jenkins-cli/releases/download/v0.0.48-rody.3/jcli-linux-amd64.tar.gz"
+      sha256 "da9c72157e5775fc6e86709f6ed02650c7b7e20c664114d47a853680080fca92"
     end
   end
 
